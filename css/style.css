@@ -1,0 +1,96 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7em;
+  padding: 3rem; }
+
+.header {
+  font-family: 'Roboto Slab', serif;
+  color: #103C70; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 3.5rem; }
+
+h3 {
+  text-transform: uppercase;
+  font-size: 2.5rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-huge {
+  margin-bottom: 10rem; }
+
+.section-banner__tab {
+  width: 33.333% .section-banner__tab -img;
+    width-width: 100rem; }
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 99, 216, 0.8), rgba(0, 99, 216, 0.44)), url(../img/header_img.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  margin-bottom: 5rem; }
+  .header__top-bar {
+    padding: 1rem 0; }
+    .header__top-bar--name {
+      display: inline-block;
+      text-transform: unset;
+      padding: 1rem; }
+    .header__top-bar--nav {
+      float: right;
+      padding-top: 1.5rem; }
+      .header__top-bar--nav ul {
+        float: left;
+        list-style-type: none;
+        color: #fff; }
+        .header__top-bar--nav ul li {
+          display: inline-block;
+          padding-right: 2.0rem;
+          font-size: 1.2rem; }
+  .header__main {
+    position: absolute;
+    top: 30%;
+    margin-left: 5rem;
+    width: 55%; }
+    .header__main--text-head {
+      line-height: 3rem;
+      letter-spacing: .25rem;
+      font-weight: 700;
+      font-size: 3rem;
+      padding-bottom: 1rem; }
+    .header__main--text-body {
+      padding-right: 5rem;
+      font-size: 1.5rem;
+      text-align: justify;
+      font-weight: lighter; }
+
+.section-banner {
+  background-color: #103C70;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
