@@ -1,0 +1,22 @@
+{
+  "name": "skillupng",
+  "version": "1.0.0",
+  "description": "A place for nigerians to learn new skills, meet with people with similar goals, share materials and more",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yinkash100/Naijahacks19-Job-Creation/tree/master/project"
+  },
+  "keywords": [
+    "learn",
+    "upskill"
+  ],
+  "author": "team-csc-brain",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

@@ -1,0 +1,66 @@
+.header{
+   height: 95vh;
+   background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-primary-bg, .8), 
+      rgba($color-primary-bg, .44)), 
+      url(../img/header_img.jpg);
+   background-size: cover;
+   background-position: top;
+   position: relative;
+   margin-bottom: 5rem;
+   // -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+   // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+   &__top-bar{
+      padding: 1rem 0;
+
+      &--name{
+         display: inline-block;
+         text-transform: unset;
+         padding: 1rem;
+      }
+
+      &--nav{
+         float: right;
+         padding-top: 1.5rem;
+
+         ul{
+            float: left;
+            list-style-type: none;
+            color: $color-white;
+            li{
+               display: inline-block;
+               padding-right: 2.0rem;
+               font-size: 1.2rem;
+            }
+         }
+      }
+   }
+
+   &__main{
+      position: absolute;
+      top: 30%;
+      margin-left: 5rem;
+      width: 55%;
+
+      &--text{
+         &-head{
+            line-height: 3rem;
+            letter-spacing: .25rem;
+            font-weight: 700;
+            font-size: 3rem;;
+            padding-bottom: 1rem;
+         }
+         &-body{
+            padding-right: 5rem;
+            font-size: 1.5rem;
+            text-align:   justify;
+            font-weight:   lighter;
+            
+         }
+         
+      }
+   }
+}
+
